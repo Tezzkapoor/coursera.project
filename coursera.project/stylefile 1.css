@@ -1,0 +1,94 @@
+
+
+/*   This           is           text             selectors        */
+div {
+background-color: rgb(46, 90, 3);
+font-style:italic;
+font-weight:bolder;
+font-size: 20px;
+line-height: 40px;
+}
+
+#features {
+background-color: black;
+    color: blue;
+}
+#features p{
+
+    color: white;
+}
+
+#features ol {
+    background-color: rgb(65, 65, 231);
+    color: rgb(49, 2, 24)
+}
+#bit {
+    background-color: palevioletred;
+}
+#volts {
+
+    background-color: rgb(238, 160, 16);
+}
+    #author {
+        background-color: coral;
+    color: rgb(107, 9, 236);
+    }
+
+    .accu {
+        background-color: cadetblue;
+        color: red;
+        }
+
+
+        p[class] {                                         /*  if we write like this p[class] then all paragraps will be selected having class  */
+
+            background-color: black;
+            color: blanchedalmond;
+        
+        }
+        
+        p[id] {                                              /*   p[id]  similarly as above all paragraps will be selected with an id   */
+        
+            background-color: rgb(74, 36, 241);
+            color: black;
+        }         
+        
+            
+        
+
+
+        /* styling texts using css  we can do this also in above selected texts but to easily understand the types of styling using css we wll do it seperatly */
+
+#features {
+
+    font-style:italic;
+    font-weight:bolder;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#volts{
+font-style: oblique;
+font-weight: 900;
+font-size: xx-large;                                /* we can also write  medium , small , pixle , xx-small etc */
+}
+
+#shift {
+
+    float: right;
+}
+
+         /*......... over  flow............ */
+
+#overflow {
+background-color: black;
+color: blanchedalmond;
+margin: auto;
+line-height: 100px;
+width: 80px;
+height: 500px;
+overflow: scroll;
+}
+
+
+
